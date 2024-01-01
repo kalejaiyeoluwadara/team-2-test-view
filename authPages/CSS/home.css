@@ -1,0 +1,30 @@
+/* Stylings for Welcome Page specific stylings */
+body{
+	background: #000 url('../IMG/welcome_screen_background.svg') no-repeat;
+	background-position: center 20%;
+	background-attachment: fixed;
+	background-size: 20em;
+}
+
+section{
+	padding-top: 12em;
+}
+
+.max_stud_motto{
+	font-size: 1.5rem;
+}
+
+.welcome_login_prompt{
+	font-size: 1.2rem;
+}
+
+.welcome_login_prompt a{
+	color: #AE1314;
+}
+
+@media screen and (min-height: 460px) {
+	body{
+		scroll-behavior: smooth;
+		overflow:hidden scroll;
+	}
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn</title>
+    <script
+      src="https://kit.fontawesome.com/457367cb8c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./CSS/general_styling.css" />
+    <link rel="stylesheet" href="./CSS/login.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="./IMG/max_stud_logo.svg"
+        alt="max_stud_logo"
+        width="120px"
+        height="120px"
+      />
+    </nav>
+
+    <section>
+      <div class="login_form_card">
+        <button class="button">Enter Login Details</button>
+
+        <form action="" id="login_form">
+          <div class="form_input">
+            <label for="user_name" id="username_l">Username:</label>
+            <input type="text" name="user_name" id="user_name" />
+
+            <label for="password" id="password_l">Password:</label>
+            <input type="password" name="password" id="password" />
+          </div>
+
+         
+          <button type="button" onclick="navigateToDashboard()">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            Login
+          </button>
+          
+          <br />
+          <a href="/">Forgot Password?</a>
+        </form>
+      </div>
+
+      <div class="max_stud_paragraph">
+        <div class="logo">
+          <img src="./IMG/max_stud_logo_white.svg" alt="max_stud_logo_white" />
+          <p>
+            MAX STUD EXAM PREPARATION <br />
+            PLANNER
+          </p>
+        </div>
+
+        <p>
+          Welcome back to Max Stud! <br />
+          The number 1 exam strategist. <br />
+          We can't wait for that academic comeback <br />
+          from you
+        </p>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      Copyright(c)<span class="copyright_year">2023</span> &copy; Team 2 Shadow
+      Devs <span class="copyright_year">2023</span>
+    </footer>
+  </body>
+  <script>
+    function navigateToDashboard() {
+    window.location.href = "../dashboardPages/dash.html";
+  }
+  </script>
+</html>

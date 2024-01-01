@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./authPages/CSS/general_styling.css "/>
+    <link rel="stylesheet" href="./authPages/CSS/home.css" />
+    <script
+      src="https://kit.fontawesome.com/457367cb8c.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+  </head>
+  <body>
+		<nav>
+			<img src = "./authPages/IMG/max_stud_logo.svg" alt="max_stud_logo" width="120px" height="120px">
+		</nav>
+
+		<section>
+				<p class="max_stud_motto">Max Stud: Your Study Strategist!</p>
+				<button class="sign_up_button button" onclick="signup()">
+					<i class="fa-regular fa-newspaper"></i>
+					Sign Up
+				</button>
+				<p class="welcome_login_prompt">Already have an account? <a href="./authPages/login.html">Login</a></p>
+				
+		</section>
+
+		<footer class="copyright">
+      Copyright(c)<span class="copyright_year">2023</span> &copy; Team 2 Shadow
+      Devs <span class="copyright_year">2023</span>
+    </footer>
+
+    <script>
+      function signup() {
+        let login_page = "./authPages/signup.html";
+   	
+
+        window.open(login_page, "_self");
+      }
+    </script>
+  </body>
+</html>

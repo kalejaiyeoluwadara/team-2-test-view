@@ -1,0 +1,506 @@
+html, body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+.logo{
+    width: 9%;
+}
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    background-color: red;
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    top: 95%;
+    text-align: center;
+}
+.oo{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 7%;
+    border-radius: 20px;
+    top: 30%;
+
+}
+.oo1{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 22%;
+    border-radius: 20px;
+    top: 30%;
+}
+.oo2{ 
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 37%;
+    border-radius: 20px;
+    top: 30%;
+}
+.oo3{ 
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 7%;
+    border-radius: 20px;
+    top: 45%;
+}
+.oo4{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 22%;
+    border-radius: 20px;
+    top: 45%;
+}
+.oo5{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 37%;
+    border-radius: 20px;
+    top: 45%;
+}
+.oo6{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 7%;
+    border-radius: 20px;
+    top: 60%;
+}
+.oo7{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 22%;
+    border-radius: 20px;
+    top: 60%;
+}
+.oo8{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 37%;
+    border-radius: 20px;
+    top: 60%;
+}
+.o{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 55%;
+    border-radius: 20px;
+    top: 30%;
+
+}
+.o1{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 70%;
+    border-radius: 20px;
+    top: 30%;
+}
+.o2{ 
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 85%;
+    border-radius: 20px;
+    top: 30%;
+}
+.o3{ 
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 55%;
+    border-radius: 20px;
+    top: 45%;
+}
+.o4{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 70%;
+    border-radius: 20px;
+    top: 45%;
+}
+.o5{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 85%;
+    border-radius: 20px;
+    top: 45%;
+}
+.o6{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 55%;
+    border-radius: 20px;
+    top: 60%;
+}
+.o7{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 70%;
+    border-radius: 20px;
+    top: 60%;
+}
+.o8{
+    position: absolute;
+    width: 7%;
+    height: 3%;
+    background-color: red;
+    left: 85%;
+    border-radius: 20px;
+    top: 60%;
+}
+.ed{
+    position: absolute;
+    top: 7%;
+    left: 12%;
+}
+.ed2{
+    position: absolute;
+    top: 12%;
+    left: 15%;
+}
+
+.wday{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+.wend{
+    position: absolute;
+    top: 20%;
+    left: 90%;
+}
+
+.seke{
+    position: absolute;
+    display: none;
+    width: 7%;
+    height: 4%;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    left: 30%;
+}
+
+.seke2{
+    position: absolute;
+    display: none;
+    width: 7%;
+    height: 4%;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    left: 70%;
+}
+
+.barrier{
+    height: 47%;
+    width: 0.2%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    background-color: red;
+}
+.btn{
+    position: absolute;
+    top: 80%;
+    left: 42.5%;
+    width: 15%;
+    height:4%;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    html, body{
+        font-size: 80%;
+       }
+       .logo{
+        width: 15%;
+       }
+    .seke{
+        position: absolute;
+        /* display: block; */
+    }
+    .oo{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 10%;
+        border-radius: 20px;
+        top: 20%;
+    
+    }
+    .oo1{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 38%;
+        border-radius: 20px;
+        top: 20%;
+    }
+    .oo2{ 
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 67%;
+        border-radius: 20px;
+        top: 20%;
+    }
+    .oo3{ 
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 10%;
+        border-radius: 20px;
+        top: 25%;
+    }
+    .oo4{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 38%;
+        border-radius: 20px;
+        top: 25%;
+    }
+    .oo5{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 67%;
+        border-radius: 20px;
+        top: 25%;
+    }
+    .oo6{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 10%;
+        border-radius: 20px;
+        top: 30%;
+    }
+    .oo7{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 38%;
+        border-radius: 20px;
+        top: 30%;
+    }
+    .oo8{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 67%;
+        border-radius: 20px;
+        top: 30%;
+    }
+    .o{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 10%;
+        border-radius: 20px;
+        top: 50%;
+    
+    }
+    .o1{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 38%;
+        border-radius: 20px;
+        top: 50%;
+    }
+    .o2{ 
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 67%;
+        border-radius: 20px;
+        top: 50%;
+    }
+    .o3{ 
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 10%;
+        border-radius: 20px;
+        top: 55%;
+    }
+    .o4{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 38%;
+        border-radius: 20px;
+        top: 55%;
+    }
+    .o5{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 67%;
+        border-radius: 20px;
+        top: 55%;
+    }
+    .o6{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 10%;
+        border-radius: 20px;
+        top: 60%;
+    }
+    .o7{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 38%;
+        border-radius: 20px;
+        top: 60%;
+    }
+    .o8{
+        position: absolute;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        left: 67%;
+        border-radius: 20px;
+        top: 60%;
+    }
+    .ed{
+        position: absolute;
+        top: 5%;
+        left: 12%;
+    }
+    .ed2{
+        position: absolute;
+        top: 10%;
+        left: 15%;
+    }
+    
+    .wday{
+        position: absolute;
+        top: 15%;
+        left: 3%;
+    }
+    .wend{
+        position: absolute;
+        top: 45%;
+        left: 3%;
+    }
+    
+    .seke{
+        position: absolute;
+        display: block;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        border: none;
+        border-radius: 20px;
+        left: 67%;
+        top: 36%;
+    }
+    
+    .seke2{
+        position: absolute;
+        display: block;
+        width: 18%;
+        height: 3%;
+        background-color: red;
+        border: none;
+        border-radius: 20px;
+        left: 67%;
+        top: 66%;
+    }
+    
+    .barrier{
+        height: 0.5%;
+        width: 46%;
+        position: absolute;
+        left: 10%;
+        top: 37.5%;
+        background-color: red;
+    }
+
+    .barrier2{
+        height: 0.5%;
+        width: 46%;
+        position: absolute;
+        left: 10%;
+        top: 67.5%;
+        background-color: red;
+    }
+    .btn{
+        position: absolute;
+        top: 78%;
+        left: 35%;
+        width: 25%;
+        height:4%;
+        background-color: #4e4e4e;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+}
