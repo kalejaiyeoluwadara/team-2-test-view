@@ -1,10 +1,10 @@
 html, body{
-    background-color: black;
+    background-color: #121212;
     height: 100%;
     width: 100%;
     margin: 0;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: poppins,'sans-serif';
     font-size: 100%;
 }
 a{
@@ -73,14 +73,15 @@ a{
 }
 
 .uexams p{
-    color: red;
+    color: #AE1314;
     margin-top: 9%;
     font-weight: bolder;
 }
 
 .footer{
-    background-color: red;
+    background-color: #AE1314;
     height: 10%;
+    color: black;
     width: 100%;
     position: absolute;
     top: 95%;
@@ -93,14 +94,14 @@ a{
     position: absolute;
     left: 53%;
     top: 50%;
-    background-color: red;
+    background-color: #AE1314;
 }
 
 .bottom h3{
     margin-left: 4px;
 }
 .first2{
-    height: 15%;
+    height: 20%;
     width: 10%;
     left: 5%;
     top: 60%;
@@ -109,7 +110,7 @@ a{
 }
 
 .second2{
-    height: 15%;
+    height: 20%;
     width: 10%;
     left: 20%;
     top: 60%;
@@ -118,7 +119,7 @@ a{
 }
 
 .third2{
-    height: 15%;
+    height: 20%;
     width: 10%;
     left: 35%;
     top: 60%;
@@ -271,7 +272,7 @@ width: 25%;
     position: absolute;
     left: 53%;
     top: 50%;
-    background-color: red;
+    background-color: #AE1314;
 }
 
 .time{

@@ -2,7 +2,7 @@
     font-family: poppins,'sans-serif';
 }
 body{
-    background-color: #1a202c;
+    background-color: #121212;
     color: white;
     padding: 0px 0px;
     margin: 0px;
@@ -36,7 +36,7 @@ li{
     font-size: 17px;
 }
 .li_all{
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #AE1314;
 }
 
     /* styles for table content */
@@ -89,7 +89,7 @@ li{
         flex-direction: column;
         display: flex;
         font-size: 25px;
-        background-color: red;
+        background-color: #AE1314;
         height: 70px;
         width: 60px;
     }
@@ -112,7 +112,7 @@ footer{
     align-items: center;
     margin-top: 30px;
     justify-content: center;
-    background-color: red;
+    background-color: #AE1314;
     color: black;
 }
 

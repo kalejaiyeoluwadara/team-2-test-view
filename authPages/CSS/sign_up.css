@@ -13,6 +13,7 @@
 	"password_i password_i"
 	"email_l ."
 	"email_i email_i"
+	". button "
 	;
 	-webkit-grid-gap: 2em;
 	grid-gap: .2em;
@@ -61,12 +62,16 @@
 	grid-area: email_i;
 }
 
-label{
-	text-align: left;
+form button{
+	grid-area: button;
+	color: #fff;
+	background-color: #AE1314;
+	margin: .5em 0em;
+	justify-self: end;
 }
 
-input{
-	height: 2.5em;
+label{
+	text-align: left;
 }
 
 
@@ -84,7 +89,12 @@ input{
 		"password_i password_i"
 		"email_l ."
 		"email_i email_i"
+		"button ."
 		;
 		width: 100%;
+	}
+
+	form button{
+		justify-self: start;
 	}
 }

@@ -22,7 +22,7 @@
     </nav>
 
 		<section>
-			<button class="button"><a href="../dashboardPages/dash.html">Sign Up For MaxStud</a></button>
+			<div class="signup_prompt">Sign Up For MaxStud</div>
 
 			<form action="" id="sign_up_form">
 				<label for="first_name" id="f_name_l">First Name:</label>
@@ -39,15 +39,23 @@
 
 				<label for="email" id="email_l">Email:</label>
 				<input type="email" name="email" id="email">
+
+				<button type="button" onclick="navigateToEdate()">Continue</button>
 			</form>
+
+
 		</section>
 
 
 
 
 		<footer class="copyright">
-      Copyright(c)<span class="copyright_year">2023</span> &copy; Team 2 Shadow
-      Devs <span class="copyright_year">2023</span>
+      &copy; 2024 Team 2 Shadow Devs
     </footer>
   </body>
+  <script>
+    function navigateToEdate() {
+    window.location.href = "../dashboardPages/edate.html";
+  }
+  </script>
 </html>

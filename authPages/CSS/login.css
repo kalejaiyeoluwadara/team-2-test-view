@@ -1,49 +1,82 @@
-section{																									
-	flex-direction: row;
-	justify-content: center;
-	flex-wrap: wrap-reverse;
-	gap: 0em;
-	color: #fff;
-	font-weight: 100;
+section{		
+	display: grid;
+	grid-template-areas: "form max_stud_paragraph";		
+	grid-gap: 0em;
+	align-items:center;
+	justify-content:center;																		
 }
 
-button{
-	color: #fff;
-	background-color: #AE1314;
-	margin-bottom: 1em;
-}
-
-.login_form_card,
-.form_input
-{
-	display: flex;
-	flex-direction: column;
-	background-color: #111111;
-	align-items: flex-start;
-	justify-content: flex-start;
-}
 
 .login_form_card,
 .max_stud_paragraph{
-	padding: 2em;
-	width: 25em;
-	height: 20em;
+	padding: .5em;
+	width: 30em;
+	height: 23em;
 }
 
-.form_input{
-	gap: .5em;
-	padding: 1em;
+.login_form_card
+{
+	display: flex;
+	flex-direction: column;
 }
 
-.form_input input{
-	width: 20em;
+.login_prompt{
+	justify-self: center;
+}
+form{
+	grid-area: form;
+	display: grid;
+	grid-template-areas: 
+	"username_l ."
+	"username_i username_i"
+	"password_l ."
+	"password_i password_i"
+	"submit ."
+	"a ."
+	;
+	align-items:center;
+	text-align: left;
+	grid-gap: .3em;
+	font-size: 1.5rem;
+}
+
+
+#username_l{
+	grid-area: username_l;
+}
+
+#user_name{
+	grid-area: username_i;
+}
+
+#password_l{
+	grid-area: password_l;
+}
+
+#password{
+	grid-area: password_i;
+}
+
+form button{
+	grid-area: submit;
+	color: #fff;
+	background-color: #AE1314;
+	margin: .5em 0em;
+	justify-self: start;
+}
+
+form a{
+	grid-area: a;
+	font-size: 1rem;
 }
 
 #login_form a{
+	grid-area: a;
 	color: #AE1314;
 }
 
 .max_stud_paragraph{
+	grid-area: max_stud_paragraph;
 	background-color: #AE1314;
 }
 
@@ -52,4 +85,18 @@ button{
 	align-items: center;
 }
 
+@media screen and (max-width: 700px){
+	section{
+		grid-template-areas: "max_stud_paragraph" "form";
+	}
 
+.login_form_card,
+.max_stud_paragraph{
+	width: 20em;
+}
+
+footer{
+	position: sticky;
+	bottom: 0px;
+}
+}

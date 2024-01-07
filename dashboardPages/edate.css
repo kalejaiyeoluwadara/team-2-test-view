@@ -4,7 +4,7 @@ html, body{
     width: 100%;
     margin: 0;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: poppins,'sans-serif';
     font-size: 100%;
 }
 
@@ -159,8 +159,9 @@ html, body{
     left: 60%;
 }
 .footer{
-    background-color: red;
-    height: 5%;
+    background-color: #AE1314;
+    height: 10%;
+    color: black;
     width: 100%;
     position: absolute;
     top: 95%;
@@ -172,7 +173,7 @@ html, body{
     left: 40%;
     width: 15%;
     height:4%;
-    background-color: red;
+    background-color: #AE1314;
     border: none;
     color: white;
     border-radius: 20px;

@@ -4,7 +4,7 @@ html, body{
     width: 100%;
     margin: 0;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: poppins,'sans-serif';
     font-size: 100%;
 }
 .logo{
@@ -16,7 +16,7 @@ html, body{
     width: 100%;
 }
 .footer{
-    background-color: red;
+    background-color: #AE1314;
     height: 5%;
     width: 100%;
     position: absolute;
@@ -27,7 +27,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 7%;
     border-radius: 20px;
     top: 30%;
@@ -37,7 +37,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 22%;
     border-radius: 20px;
     top: 30%;
@@ -46,7 +46,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 37%;
     border-radius: 20px;
     top: 30%;
@@ -55,7 +55,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 7%;
     border-radius: 20px;
     top: 45%;
@@ -64,7 +64,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 22%;
     border-radius: 20px;
     top: 45%;
@@ -73,7 +73,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 37%;
     border-radius: 20px;
     top: 45%;
@@ -82,7 +82,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 7%;
     border-radius: 20px;
     top: 60%;
@@ -91,7 +91,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 22%;
     border-radius: 20px;
     top: 60%;
@@ -100,7 +100,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 37%;
     border-radius: 20px;
     top: 60%;
@@ -109,7 +109,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 55%;
     border-radius: 20px;
     top: 30%;
@@ -119,7 +119,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 70%;
     border-radius: 20px;
     top: 30%;
@@ -128,7 +128,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 85%;
     border-radius: 20px;
     top: 30%;
@@ -137,7 +137,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 55%;
     border-radius: 20px;
     top: 45%;
@@ -146,7 +146,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 70%;
     border-radius: 20px;
     top: 45%;
@@ -155,7 +155,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 85%;
     border-radius: 20px;
     top: 45%;
@@ -164,7 +164,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 55%;
     border-radius: 20px;
     top: 60%;
@@ -173,7 +173,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 70%;
     border-radius: 20px;
     top: 60%;
@@ -182,7 +182,7 @@ html, body{
     position: absolute;
     width: 7%;
     height: 3%;
-    background-color: red;
+    background-color: #AE1314;
     left: 85%;
     border-radius: 20px;
     top: 60%;
@@ -214,7 +214,7 @@ html, body{
     display: none;
     width: 7%;
     height: 4%;
-    background-color: red;
+    background-color: #AE1314;
     border: none;
     border-radius: 20px;
     left: 30%;
@@ -225,7 +225,7 @@ html, body{
     display: none;
     width: 7%;
     height: 4%;
-    background-color: red;
+    background-color: #AE1314;
     border: none;
     border-radius: 20px;
     left: 70%;
@@ -237,7 +237,7 @@ html, body{
     position: absolute;
     left: 50%;
     top: 25%;
-    background-color: red;
+    background-color: #AE1314;
 }
 .btn{
     position: absolute;
@@ -245,7 +245,7 @@ html, body{
     left: 42.5%;
     width: 15%;
     height:4%;
-    background-color: red;
+    background-color: #AE1314;
     border: none;
     color: white;
     border-radius: 20px;
@@ -267,7 +267,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 10%;
         border-radius: 20px;
         top: 20%;
@@ -277,7 +277,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 38%;
         border-radius: 20px;
         top: 20%;
@@ -286,7 +286,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 67%;
         border-radius: 20px;
         top: 20%;
@@ -295,7 +295,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 10%;
         border-radius: 20px;
         top: 25%;
@@ -304,7 +304,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 38%;
         border-radius: 20px;
         top: 25%;
@@ -313,7 +313,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 67%;
         border-radius: 20px;
         top: 25%;
@@ -322,7 +322,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 10%;
         border-radius: 20px;
         top: 30%;
@@ -331,7 +331,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 38%;
         border-radius: 20px;
         top: 30%;
@@ -340,7 +340,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 67%;
         border-radius: 20px;
         top: 30%;
@@ -349,7 +349,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 10%;
         border-radius: 20px;
         top: 50%;
@@ -359,7 +359,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 38%;
         border-radius: 20px;
         top: 50%;
@@ -368,7 +368,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 67%;
         border-radius: 20px;
         top: 50%;
@@ -377,7 +377,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 10%;
         border-radius: 20px;
         top: 55%;
@@ -386,7 +386,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 38%;
         border-radius: 20px;
         top: 55%;
@@ -395,7 +395,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 67%;
         border-radius: 20px;
         top: 55%;
@@ -404,7 +404,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 10%;
         border-radius: 20px;
         top: 60%;
@@ -413,7 +413,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 38%;
         border-radius: 20px;
         top: 60%;
@@ -422,7 +422,7 @@ html, body{
         position: absolute;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         left: 67%;
         border-radius: 20px;
         top: 60%;
@@ -454,7 +454,7 @@ html, body{
         display: block;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         border: none;
         border-radius: 20px;
         left: 67%;
@@ -466,7 +466,7 @@ html, body{
         display: block;
         width: 18%;
         height: 3%;
-        background-color: red;
+        background-color: #AE1314;
         border: none;
         border-radius: 20px;
         left: 67%;
@@ -479,7 +479,7 @@ html, body{
         position: absolute;
         left: 10%;
         top: 37.5%;
-        background-color: red;
+        background-color: #AE1314;
     }
 
     .barrier2{
@@ -488,7 +488,7 @@ html, body{
         position: absolute;
         left: 10%;
         top: 67.5%;
-        background-color: red;
+        background-color: #AE1314;
     }
     .btn{
         position: absolute;

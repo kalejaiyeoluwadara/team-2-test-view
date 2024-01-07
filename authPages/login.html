@@ -8,8 +8,12 @@
       src="https://kit.fontawesome.com/457367cb8c.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./CSS/general_styling.css" />
     <link rel="stylesheet" href="./CSS/login.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  </style>
   </head>
   <body>
     <nav>
@@ -23,20 +27,18 @@
 
     <section>
       <div class="login_form_card">
-        <button class="button">Enter Login Details</button>
+        <div class="login_prompt">Enter Login Details</div>
 
         <form action="" id="login_form">
-          <div class="form_input">
             <label for="user_name" id="username_l">Username:</label>
             <input type="text" name="user_name" id="user_name" />
 
             <label for="password" id="password_l">Password:</label>
             <input type="password" name="password" id="password" />
-          </div>
 
          
           <button type="button" onclick="navigateToDashboard()">
-            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            <i class="fa-solid fa-right-to-bracket"></i>
             Login
           </button>
           
@@ -64,8 +66,7 @@
     </section>
 
     <footer class="copyright">
-      Copyright(c)<span class="copyright_year">2023</span> &copy; Team 2 Shadow
-      Devs <span class="copyright_year">2023</span>
+      &copy; 2024 Team 2 Shadow Devs
     </footer>
   </body>
   <script>

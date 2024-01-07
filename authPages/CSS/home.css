@@ -21,10 +21,3 @@ section{
 .welcome_login_prompt a{
 	color: #AE1314;
 }
-
-@media screen and (min-height: 460px) {
-	body{
-		scroll-behavior: smooth;
-		overflow:hidden scroll;
-	}
-}
